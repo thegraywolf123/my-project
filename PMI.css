@@ -1,0 +1,187 @@
+body{
+    overflow-x: hidden;
+}
+.ricky{
+    margin-top: 20px;
+    
+}
+@media screen and (max-width:768px){
+    body{
+        overflow-x:hidden;
+      }
+      .wiz{
+        width: 70%;
+      }
+}
+.obey{
+    margin-top: 100px;
+}
+.ricky button{
+    border: none;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    transform: rotate(-90deg);
+    margin-top: 30px;
+    position: fixed;
+    top: 5px;
+    z-index: 0;
+}
+.onye{
+    margin-left: 26%;
+}
+.onye ul{
+    list-style-type: none;
+   
+}
+.onye a{
+    color: rgb(68,68,68);
+    padding: 5px;
+    text-decoration: none;
+}
+.onye li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.rich{
+    margin-left: 56px;
+    transform: translateY(-68%);
+    z-index: 100;
+}
+.rachy{
+    margin-left: 73%;
+    transform: translateY(-150px);
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+.ruchy{
+    margin-left: 93%;
+    transform: translateY(-190px);
+    border: 1px solid rgb(64,84,178);
+    background: rgb(64,84,178);
+    width: 58px;
+    position: fixed;
+    bottom: 160px;
+}
+/*  */
+.check{
+    background: rgb(102,152,207);
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    padding: 50px;
+    margin-left: 90px;
+
+}
+.chuck{
+    margin-left: 88px;
+}
+#chuck{
+    background: rgb(51,104,156);
+    padding: 19px;
+    color: white;
+    font-weight: bold;
+}
+#chuck:hover{
+    cursor: pointer;
+}
+#chpck{
+    background: rgb(239,239,239);
+    padding: 19px;
+    font-weight: bold;
+}
+#chpck:hover{
+    background: rgb(211, 207, 207);
+    cursor: pointer;
+}
+#chnck{
+    background: rgb(239,239,239);
+    padding: 19px;
+    font-weight: bold;
+}
+#chnck:hover{
+    background: rgb(211, 207, 207);
+    cursor: pointer;
+}
+#chmck{
+    background: rgb(239,239,239);
+    padding: 19px;
+    font-weight: bold;
+}
+/*  */
+.waz{
+    margin-left: 7%;
+}
+#sam{
+    color: rgb(144,148,154);
+    font-weight: bold;
+}
+.sam{
+    background: rgb(0,0,255);
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 10px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+.wiz{
+    width: 100%;
+    padding: 15px;
+    border-color: rgb(144,148,154);
+}
+/*  */
+.burna{
+    background: rgb(102,152,207);
+    padding: 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+/*  */
+.money{
+    margin-left: 20%;
+}
+#money{
+    background: rgb(248,248,248);
+    border: 1px solid rgb(177, 170, 170);
+    border-radius: 4px;
+    color: rgb(101,101,101);
+    padding: 8px;
+}
+/*  */
+.thank{
+    background: rgb(102,152,207);
+    padding: 30px;
+    color: white;
+    /* font-weight: bold; */
+}
+.thank ul{
+    list-style-type: none;
+}
+.thank li:hover{
+    margin-left: 10px;
+    cursor: pointer;
+}
+/*  */
+.feel{
+    background: rgb(51,104,156);
+    color: white;
+}
+#feel{
+    margin-left: 80%;
+    border: 1px solid white;
+    padding: 9px;
+    border-radius: 360px;
+    transform: translateY(-38px);
+}
+#feel:hover{
+    background: rgb(114, 114, 153);
+}
+#fool{
+    margin-left: 70%;
+    border: 1px solid white;
+    padding: 9px;
+    border-radius: 360px;
+}

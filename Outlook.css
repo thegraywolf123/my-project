@@ -1,0 +1,487 @@
+body{
+    overflow-x: hidden;
+    width: 100%;
+}
+.power{
+    background: black;
+    padding-bottom: 30px;
+    
+}
+.look{
+    position: relative;
+    z-index: 0;
+
+}
+@media screen and (max-width:700px){
+    body{
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+    .power{
+        max-width: 100%;
+    }
+    .look{
+        width: 180%;
+        background-color: black;
+        padding-bottom: 160%;
+        
+    }
+    .love button{
+        margin-left: 70%;
+        margin-top: 20%;
+        z-index: 0;
+    }
+    .aces h3{
+        margin-top: 80%;
+    }
+    .aceees{
+        margin-top: -27%;
+        margin-right:30%;
+        font-size: 30px;  
+    }
+    .aceees span{
+        display: block;
+    }
+    .grate h1{
+        width: 100%;
+    }
+    
+    .power{
+        padding-bottom: 30%;
+        width: 100%;
+    }
+    .kage h1{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    body{
+        overflow-x: hidden;
+        width: 100%;
+    }
+    
+    .love{
+        position: absolute;
+        width: 80%;
+        z-index: 0;
+        bottom: -120px;
+        left: -390px;
+    }
+    .might{
+        margin-top: 150px;
+    }
+    .oly{
+        position: absolute;
+        z-index: 0;
+        width: 100%;
+        margin-right: 40px;
+        /* margin-left: 30px; */
+    }
+    .racky{
+        margin-top: 60%;
+        z-index: 100;
+    }
+    .ship{
+        background: black;
+        /* padding-bottom: 40%; */
+    }
+    .shap{
+        margin-top: 100%;
+        padding-bottom: 160%;
+        background: black;
+        font-size: 29px;
+    }
+    .shap p{
+        text-align: center;
+        font-size: 20px;
+    }
+    .fale ul{
+        margin-top: -50%;
+    }
+    .omam h1{
+        margin-top: -30%;
+    }
+    #bod{
+        padding-top: 50%;
+    }
+    #bod h1{
+        margin-left: 20%;
+    }
+    .wello{
+        margin-top: 60%;
+        color:rgb(0,116,205) ;
+        margin-right: 20%;
+    }
+    .wello button{
+        background: rgb(0,116,205);
+        width: 100%;
+        height: 30%;
+        font-weight: bold;
+    }
+    .better{
+        margin-top: 90%;
+        
+    }
+    .better img{
+        margin-right: 30rem;
+        width: 350px;
+    }
+    .botter{
+        margin-top: 50%;
+        width: 100%;
+    }
+    hr{
+        margin-top: 120%;
+    }
+    
+
+}
+
+.laak{
+    position: absolute;
+    top: 0;
+    z-index: 0;
+}
+.luuk{
+    background: rgb(74,68,67);
+    padding: 20px;
+    padding-top: 9px;
+    
+}
+.boy{
+     font-weight: bold;
+    color: white;
+    margin-bottom: 40rem;
+    margin-left: 50px;
+    
+}
+
+#boya{
+    /* transform: translateY(-35px); */
+    /* margin-left: 20%; */
+    padding:5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: rgb(0,135,214);
+    font-weight: bold;
+    border-radius:5px;
+    border: none;
+    cursor: pointer;
+    
+}
+#boyu{
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background: rgb(74,68,67) ;
+    
+}
+.boyu{
+    float: right;
+    margin-right: 60px;
+    margin-top: -20px;
+    box-sizing: border-box;
+}
+.aces h3{
+    color: white;
+    padding-top: 20px;
+    margin-left: 70px;
+}
+.aceees{
+    color: white;
+    font-weight: bold;
+    padding-top: 25%;
+    margin-left: 75px;
+    
+}
+.aceees span{
+    font-size: 40px;
+    opacity: 0;
+    bottom: -200px;
+    animation-name: ricky;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+@keyframes ricky {
+    0% {
+        opacity: 0;
+        bottom: -200px;
+    }
+    70%{
+        opacity: 1;
+        bottom: 15px;
+    }
+    85%{
+        opacity: 1;
+        bottom: -10px;
+    }
+    100%  {
+        opacity: 1;
+        bottom: 0px
+    }
+}
+.men hr{
+    color: white;
+    margin-top: -45px;
+    height: 3px;
+    width: 80%;
+    margin-left: 75px;
+}
+.grate h1{
+    font-size: 20px;
+    color: white;
+    margin-left: 70px;
+}
+.love button{
+    padding: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-left: 50%;
+    margin-top: -30rem;
+    border-radius: 8px;
+    background: rgb(0,120,212);
+    color: white;
+    font-weight: bold;
+}
+/*  */
+.might{
+    background: rgb(255,255,255);
+    padding: 12%;
+    position: relative;
+}
+.oly{
+    background:white;
+    padding: 20%;
+    width: 60%;
+    position: absolute;
+    z-index: 0.1;
+    margin-top: -34%;
+    margin-right: 50px;
+}
+.sam{
+    margin-top: -150px;
+    
+}
+.oly h1{
+    color: rgb(0,120,212);
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: -90px;
+    margin-right: 20px;
+}
+.oly p{
+    display: inline;
+    color: rgb(102,102,102);
+}
+/*  */
+.racky{
+    background: white;
+    width: 100%;
+    position: absolute;
+    padding: 20px;
+    z-index: 100;
+}
+#mama{
+    border: 1px solid rgb(0,120,212);
+    margin: 5px;
+    text-align: center;
+    padding-top: 20px;
+    padding: 10px;
+    background: rgb(0,120,212);
+    color: white;
+    border-radius: 8px;
+}
+/*  */
+.ship{
+    background: black;
+    padding-left: 15px;
+    padding-right:15px ;
+    padding-bottom: 30%;
+    
+}
+.shap{
+    position: relative;
+    padding-top: 50%;
+}
+.bigger{
+    position: absolute;
+    z-index: 0;
+    margin-top: -50%;
+    color:white ;
+    
+}
+.bigger h1{
+    font-size: 68px;
+    margin-left: 30px;
+}
+.file{
+    margin-left: 40%;
+    border-left: 2px solid white;
+    padding: 5px;
+}
+.fale{
+    margin: -40px;
+    
+}
+.fale ul{
+    margin-top: -89%;
+    margin-left: 70px;
+    list-style-type: none;
+    font-size: 70px;
+    transform: skew(180deg);
+    transition: 1s;
+}
+/*  */
+.lola{
+    background: white;
+    padding: 20%;
+}
+.kage{
+    margin-left: 28%;
+}
+.kage h1{
+    font-size: 50px;
+}
+/*  */
+.done{
+    text-align: center;
+    font-size: 28px;
+    color: rgb(102,102,107);
+}
+.rain{
+    margin-left: 50%;
+}
+/*  */
+.bar{
+    position: relative;
+}
+.boar{
+    position: absolute;
+    z-index: 0;
+}
+.omam{
+    /* margin-top: -50%;
+    margin-left:10%; */
+}
+.omam h1{
+    font-size: 70px;
+    margin-top: -57%;
+    margin-left:10%;
+}
+.set{
+    background: white;
+    width: 60%;
+    padding-bottom: 30%;
+    
+}
+.set p{
+    margin-left: 13%;
+}
+/*  */
+#bod{
+    margin-top: 40px;
+    box-sizing: border-box;
+    color: rgb(0,120,212);
+}
+
+/*  */
+.mit{
+    margin-top: 20%;
+    color: rgb(0,120,212);
+}
+.mit h1{
+    margin-left: 20%;
+}
+/*  */
+
+#band{
+    background: rgb(0,116,205);
+}
+.bow{
+    color: white;
+    margin-top: 40px;
+    margin-left: 20%;
+}
+/*  */
+.valid{
+    /* margin-left: 17%; */
+    text-align: center;
+}
+/*  */
+.hallow{
+    position: relative;
+}
+.walo{
+    position: absolute;
+    margin-top: -68%;
+    margin-left: 30%;
+    
+    color: white;
+}
+.walo h1{
+    font-size: 80px;
+}
+.walo p{
+    font-size: 30px;
+    margin-left: 30px;
+}
+.wello button{
+    /* background: rgb(0,116,205); */
+    width: 100%;
+    height: 40%;
+    font-weight: bold;
+}
+/*  */
+.better{
+    position: relative;
+}
+.better img{
+    margin-left: 50%;
+}
+.botter{
+    position: absolute;
+    margin-left: 130px;
+    background: white;
+    width: 50%;
+    margin-top: -40%;
+    z-index: 0;
+}
+.bwtter h1{
+    font-size: 60px;
+    color: rgb(0,116,205);
+}
+.bwtter span{
+    color: rgb(0,116,205);
+    font-weight: bold;
+    font-size: 29px;
+}
+/*  */
+.shiip{
+    background: black;
+    color: white;
+    padding: 20%;
+}
+.shiip h1{
+    margin-top: -140px;
+    margin-right: 20%;
+}
+.shiip ul{
+    list-style-type: none;
+    display: flex;
+    
+}
+.shiip li{
+    padding: 5px;
+    margin-left: 20%;
+}
+/*  */
+.mamaam{
+    background: white;
+}
+

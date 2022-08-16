@@ -1,0 +1,287 @@
+body{
+    background:rgb(255,240,229);
+    overflow-x: hidden;
+}
+.you{
+    width: 100%;
+    margin-top: -14px;
+    padding-bottom: 20px;
+    background: rgb(255,240,229);
+    position: fixed;
+    top: 0;
+    z-index: 0;
+}
+.free{
+    margin-left: 88%;
+    background: rgb(255,240,229) ;
+    margin-top: -69px;
+  }
+  
+  .omo{
+      font-weight: bold;
+      margin-left: 80%;
+      transform: translateY(-50px);
+  }
+  .omo a{
+    text-decoration: none;
+    color: black;
+  }
+  .ayo{
+      margin-top: 30px;
+      margin-left: 49px;
+  }
+  /*  */
+  .ric{
+      padding: 18px;
+      width: 90%;
+  }
+  #rac{
+      padding: 9px;
+      border: none;
+      padding-left: 20px;
+      padding-right: 20px;
+      background:rgb(58,16,229);
+      color: white;
+      border-radius: 8px;
+  }
+  /*  */
+  .good{
+    padding-top: 50px;
+  }
+  .dance:hover{
+      background-color: white;
+      margin-left:4px;
+      padding: 38px;
+      transition: 1s;
+  }
+  #over{
+      border: 1px solid black;
+      font-size: 10px;
+      background: rgb(255,255,255);
+      width: 160px;
+      font-weight: bold;
+      text-align: left;
+  }
+  #over:hover{
+      box-shadow: 10px 4px 4px black;
+      margin-left: 5px;
+      transition: 1s;
+  }
+  #ovar{
+    border: 1px solid black;
+    font-size: 10px;
+    background: rgb(255,255,255);
+    width: 160px;
+    font-weight: bold;
+    text-align: left;
+}
+#ovar:hover{
+    box-shadow: 10px 4px 4px black;
+    margin-left: 5px;
+    transition: 1s;
+}
+#ovsr{
+    border: 1px solid black;
+    font-size: 10px;
+    background: rgb(255,255,255);
+    width: 160px;
+    font-weight: bold;
+    text-align: left;
+}
+#ovsr:hover{
+    box-shadow: 10px 4px 4px black;
+    margin-left: 5px;
+    transition: 1s;
+}
+@media screen and (max-width:768px){
+    #over{
+        width: 100%;
+        padding: 30px;
+    }
+    #ovar{
+        margin-top: 10px;
+        width: 100%;
+        padding: 30px;
+    }
+    #ovsr{
+        width: 100%;
+        padding: 30px;
+    }
+    #ovdr{
+        width:100%;
+        margin: 20px;
+        padding: 30px;
+    }
+    .cele{
+        visibility: hidden;
+    }
+    .kolo{
+        margin-top: -190%;
+    }
+    .omo{
+        margin-left: 70%;
+    }
+}
+#ovdr{
+    border: 1px solid black;
+    font-size: 10px;
+    background: rgb(255,255,255);
+    width: 160px;
+    font-weight: bold;
+    text-align: left;
+}
+#ovdr:hover{
+    box-shadow: 10px 4px 4px black;
+    margin-left: 5px;
+    transition: 1s;
+}
+  span{
+      background-color: black;
+      color: white;
+  }
+  /*  */
+  .cele{
+      background: rgb(16,22,47);
+      padding: 30px;
+      color: white;
+      font-weight: bold;
+  }
+#amaz{
+    border: 1px solid white;
+    padding: 10px;
+}
+#amamm{
+    border: 1px solid white;
+    padding: 10px;
+}
+#prada{
+    border: 1px solid white;
+    padding-bottom: 30%;
+    background: rgb(33,30,47);
+
+}
+#prado{
+    border: 1px solid white;
+    padding-bottom: 30%;
+}
+.prama{
+    border: 1px solid white;
+    /* padding: 20px; */
+    width: 100%;
+}
+.prama button{
+    background: yellow;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 93%;
+}
+.dey{
+    border: 2px solid rgb(255,211,0);
+    background: rgb(16,22,47);
+    color: rgb(255,211,0);
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+.confu{
+    border: none;
+    background: rgb(16,22,47);
+    color: rgb(255,211,0);
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+.confu:hover{
+    background: rgb(107, 109, 117);
+    transition: 1s;
+}
+.kolo{
+    background: rgb(255,211,0);
+    padding-top: 18%;
+    padding-bottom: 30px;
+}
+.kolo button{
+    background: rgb(58,16,229);
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  /*  */
+  .mood{
+      background: rgb(255,240,229);
+      padding-top: 20%;
+  }
+  .maad{
+      padding: 10px;
+      padding-bottom: 20px;
+  }
+  .maad:hover{
+      color:rgb(58,16,229);
+      cursor: pointer;
+  }
+  /*  */
+  .minal{
+      background: rgb(58,16,229);
+      padding: 20px;
+      color: white;
+      font-weight: bold;
+  }
+  /*  */
+  .thing{
+      background: rgb(16,22,47);
+      padding: 20px;
+      color: white;
+      font-weight: bold;
+      padding-bottom: 30px;
+  }
+  .thing button{
+      padding: 10px;
+      background: rgb(255,211,0);
+      border-radius: 8px;
+  }
+  /*  */
+  .tired{
+      background: rgb(58,16,229);
+      padding: 20px;
+      padding-top: 20%;
+      color: white;
+      font-weight: bold;
+  }
+  .tired button{
+      padding: 10px;
+      background: rgb(255,211,0);
+      border-radius: 8px;
+  }
+  .anyone{
+    background: rgb(255,240,229);
+    padding: 20px;
+  }
+  .anyone a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+  }
+  .anyone a:hover{
+    color: blue;
+  }
+  /*  */
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  a:hover{
+    color: blue;
+  }
+  /*  */
+  .lola{
+    background: blue;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+  }

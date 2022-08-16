@@ -1,0 +1,135 @@
+body{
+    overflow-x: hidden;
+}
+@media screen and (max-width:768px) {
+    body{
+        overflow-x: hidden;
+    }
+    .lola{
+        margin-top: 30%;
+        /* margin-left: 20%; */
+    }
+    .sammy{
+        margin-top: 20%;
+        padding-bottom: 30%;
+    }
+    .luve{
+        margin-top: -30%;
+        font-size: 20px;
+        /* text-align: center; */
+        
+    }
+    
+}
+/* .rich ul li a{
+    background-color: red;
+} */
+.rich ul li a:hover{
+    color: goldenrod;
+}
+    
+
+.sammy{
+    position: relative;
+    background-image: url(p0202jwh.jpg);
+}
+.sommy{
+    position: absolute;
+    margin-top: -29%;
+    margin-left: 20%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+/*  */
+.lola{
+    background: red;
+    padding: 40px;
+    color: white;
+}
+.lola h1{
+    font-weight: bold;
+    font-size: 40px;
+}
+/*  */
+#sola{
+    text-align: center;
+}
+.sola{
+    border: 1px solid red;
+    padding: 20px;
+    width: 50%;
+    text-align: center;
+    border-radius: 360rem;
+    margin-left: 20%;
+}
+/*  */
+.love{
+    position: relative;
+}
+.lave{
+    position: absolute;
+    z-index: 0;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: -80%;
+    margin-left: 30%;
+}
+#love{
+    width: 60%;
+    border-radius: 15px;
+}
+.olaa{
+    background-image: url(conference-room-768441_1920.jpg);
+    background-attachment: fixed;
+    padding: 20%;
+}
+.olu{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+.ruka{
+    float: left;
+    width: 16.66%;
+    
+  }
+  /*  */
+  .aby{
+    background: rgb(232,33,41);
+    padding: 40px;
+  }
+  .solu{
+    text-align: center;
+    color: white;
+  }
+.sihat{
+    margin-top: 40px;
+    background: rgb(234,234,234);
+    padding: 20px;
+}
+#wine{
+    color: rgb(73,71,71);
+}
+#wine ul{
+    list-style-type: none;
+}
+#molu{
+    width: 100%;
+    padding: 10px;
+    border: none;
+}
+#shape{
+    color: rgb(73,71,71);
+}
+.molu{
+    width: 100%;
+    padding: 5px;
+    border-radius: 15px;
+    border: none;
+    background: rgb(232,33,41);
+    color: white;
+    font-weight: bold;
+}

@@ -1,0 +1,135 @@
+.ricky{
+    background: rgb(255,255,255);
+    position: sticky;
+    padding: 20px;
+    top: 0;
+    z-index: 1;
+}
+@media screen and (max-width: 990px){
+  body{
+    overflow-x: hidden;
+  }
+  #sam{
+    width: 80%;
+    height: auto;
+    margin: 10px;
+  }
+  .inside{
+    margin-top: 159%;
+    z-index: 0;
+  }
+
+}
+
+#ayo li{
+  list-style-type: none;
+  
+
+}
+#ayo a:hover{
+  color: rgb(0,171,89);
+  cursor: pointer;
+}
+#ayo a{
+  text-decoration: none;
+  text-align: center;
+  color: rgb(13,92,145);
+  font-weight: bold;
+  font-size: 17px;
+  width: 70%;
+}
+/*  */
+.rich{
+  background: rgb(13,92,145);
+  padding: 40px;
+  padding-bottom: 10px;
+  position: relative;
+  z-index: 0;
+}
+.rach{
+  color: white;
+}
+h1{
+  font-weight: bold;
+  font-size: 48px;
+}
+.sada{
+  font-size:30px;
+  word-spacing: 20px;
+}
+.sammy{
+    position: absolute;
+    z-index: 1;
+}
+#sam{
+  background: white;
+  transform: translateY(-30%);
+  text-align: left;
+  padding: 15px;
+  border-radius: 5px;
+}
+#sam button{
+  padding: 8px;
+  width: 39%;
+  color: rgb(13,92,145);
+  font-weight: bold;
+  border-color: rgb(13,92,145);
+}
+#sam button:hover{
+  background-color: rgb(13,92,145);
+  color: white;
+}
+/*  */
+.lady{
+  background: rgb(228,230,239);
+  padding-top: 20%;
+  padding: 20px;
+  padding-bottom: 3%;
+  
+}
+.blem{
+  background: rgb(255,255,255);
+  margin-top: 20%;
+  padding-bottom: 20px;
+}
+.inside{
+  background: rgb(0,148,191);
+  width: 100%;
+  padding: 10px;
+  font-weight: bold;
+  color: white;
+  z-index: 1000;
+}
+.hear{
+  width: 40%;
+  padding: 8px;
+  border-radius: 8px;
+}
+#long{
+  width: 85%;
+}
+.hear:visited{
+  border-color: blue;
+}
+#hand{
+  background-color:rgb(13,92,145) ;
+  color: white;
+  width: 20%;
+  border: none;
+  padding: 5px;
+  margin-left: 40%;
+  border-radius: 8px;
+}
+.redit{
+  margin-left: 20%;
+  margin-top:40px ;
+  font-size: 20px;
+}
+span{
+  color: rgb(13,92,145)  ;
+  font-weight: bold;
+}
+.fied{
+  background: rgb(13,92,145);
+  color: white;
+}
