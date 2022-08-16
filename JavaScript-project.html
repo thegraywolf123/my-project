@@ -15,8 +15,8 @@
         }
 
         body {
-            background: rgb(67, 56, 57);
-            color: blue;
+            background: rgb(87, 5, 122);
+            color: rgb(255, 0, 132);
             text-align: center;
             padding: 2rem
         }
@@ -37,13 +37,13 @@
             height: 5vh;
             width: 10%;
             border-radius: 5px 0px;
-            background: green;
-            color: blue;
+            background: rgb(171, 124, 167);
+            color: rgb(119, 51, 58);
             margin-right: 20px;
         }
 
         #a1 button:hover {
-            background: blue;
+            background: rgb(199, 235, 19);
             color: green;
         }
 
@@ -86,8 +86,8 @@
         }
 
         #digi h4 {
-            color: green;
-            border: 1px solid grey;
+            color: rgb(227, 195, 17);
+            border: 1px solid rgba(186, 4, 4, 0.877);
             width: 100%;
             padding: 10px;
             text-align: center;
@@ -115,8 +115,8 @@
         }
 
         #icalc select:hover {
-            background: green;
-            color: yellow;
+            background: rgb(243, 17, 111);
+            color: rgb(208, 240, 25);
         }
 
         #icalc button {
@@ -268,7 +268,10 @@
     <div class="container">
         <div class="row">
             <!--SIMPLE CALCULATOR-->
-            <div class="col-sm-12 col-md-8" id="a1">
+            <br>
+            <br>
+            <br>
+            <div  id="a1">
                 <h2>SIMPLE CALCULATOR</h2>
                 <input type="text" id="input1" placeholder="input number"> &nbsp; <span style="color: white;"
                     id="span1"></span>
@@ -281,9 +284,14 @@
                 <button type="button" onclick="three()">*</button>
                 <button type="button" onclick="four()">/</button>
             </div>
+            <br>
+            <br>
+            <br>
+            <br>
+
 
             <!--Buhari countdown -->
-            <div class="col-sm-12 col-md-4" id="b2">
+            <div id="b2">
                 <h1><b>BUHARI TENURE WILL BE OVER IN THE NEXT:</b></h1>
                 <h4>
                     <span id="awo"></span>
@@ -294,13 +302,13 @@
             </div>
 
             <!--Digital Clock-->
-            <div class="col-sm-12 col-md-4" id="digi">
+            <div id="digi">
                 <h2>DIGITAL CLOCK</h2>
                 <h4 id="clock"></h4>
             </div>
 
             <!--INVESTMENT CALCULATOR-->
-            <div class="col-sm-12 col-md-8" id="icalc">
+            <div id="icalc">
                 <h2>INVESTMENT CALCULATOR</h2>
                 <input type="text" id="input" placeholder="Amount">
                 <select id="select">
@@ -316,7 +324,7 @@
             </div>
 
             <!--LOAN CALCULATOR-->
-            <div class="col-sm-12 col-md-6" id="loa">
+            <div id="loa">
                 <h3>LOAN CALCULATOR</h3>
                 <input type="text" id="grab2" placeholder="Enter Loan Amount?">
                 <select id="select2">
@@ -334,13 +342,13 @@
             </div>
 
             <!-- PRAYER TIME FOR MUSLIMS-->
-            <div class="col-sm-12 col-md-6">
+            <div>
                 <h3>PRAYER TIME FOR MUSLIMS</h3>
                 <h5 style="color: white;" id="mus">angel</h5>
             </div>
 
             <!--countdown to new year -->
-            <div class="col-sm-4 col-md-6" id="year">
+            <div id="year">
                 <h3>NEW YEAR COUNTDOWN</h3>
                 <br />
                 <div>
@@ -353,13 +361,13 @@
 
             <!-- Working Day -->
 
-            <div class="col-sm-4 col-md-6">
+            <div >
                 <h3>DAYS OF THE WEEK</h3>
                 <h5 style="color: white;" id="dad">00</h5>
             </div>
 
             <!--Stop watch-->
-            <div class="col-sm-4 col-md-6" id="watch">
+            <div id="watch">
                 <h3>STOP WATCH</h3>
                 <div class="sss">
                     <span id="hour">00 HRS</span>
@@ -369,13 +377,13 @@
                     <span id="sec">00 MIN</span>
                 </div>
                 <br />
-                <button style="background-color: green;" onclick="Start()">Start</button>
-                <button style="background-color: red;" onclick="stp()">Stop</button>
-                <button style="background-color: yellow;" onclick="Clear()">Clear</button>
+                <button style="background-color: rgb(46, 13, 177);" onclick="Start()">Start</button>
+                <button style="background-color: rgb(215, 21, 170);" onclick="stp()">Stop</button>
+                <button style="background-color: rgb(255, 179, 0);" onclick="Clear()">Clear</button>
             </div>
 
             <!--Jamb countdown -->
-            <div class="col-sm-4 col-md-6" id="timer">
+            <div  id="timer">
                 <h3>TIMER</h3>
                 <span id="mn">00 MIN</span>
                 <span> : </span>
@@ -385,7 +393,7 @@
             </div>
 
             <!--nigeria age -->
-            <div class="col-sm-4 col-md-6" id="gue">
+            <div id="gue">
                 <h3>Guess: </h3>
                 <input type="text" id="grab3" placeholder="How Old Is Nigeria?">
                 <button onclick="nig()">Check</button><a href="index.html" style="text-decoration: none;"> Go Home</a>
