@@ -480,7 +480,7 @@
 
         // COUNTDOWN BUHARI TENURE!!!
         var countDownDate = new Date("May 29, 2023 12:00:00").getTime();
-        function olaide(q) {
+        function richard(q) {
             var kola = q + "";
             if (kola.length < 2) {
                 return "0" + kola;
@@ -497,10 +497,10 @@
             var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
             var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
             var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-            document.getElementById("awo").innerHTML = olaide(days) + "" + "D " + ":";
-            document.getElementById("lin").innerHTML = olaide(hours) + "" + "H " + ":";
-            document.getElementById("dig").innerHTML = olaide(minutes) + "" + "M " + ":";
-            document.getElementById("azu").innerHTML = olaide(seconds) + "" + "S ";
+            document.getElementById("awo").innerHTML = richard(days) + "" + "D " + ":";
+            document.getElementById("lin").innerHTML = richard(hours) + "" + "H " + ":";
+            document.getElementById("dig").innerHTML = richard(minutes) + "" + "M " + ":";
+            document.getElementById("azu").innerHTML = richard(seconds) + "" + "S ";
             if (distance < 0) {
                 clearInterval(x);
                 document.getElementById("demo").innerHTML = "IT'S OVER IN ASO ROCK";
@@ -556,22 +556,22 @@
         var mit = new Date().getHours();
         switch (mit) {
             case 5:
-                tim.innerHTML = "its Fajr  fellow muslims brother and sister";
+                tim.innerHTML = "its Fajr time my fellow muslims brother and sister";
                 break;
             case 6:
-                tim.innerHTML = "its Sunrise  fellow muslims brother and sister";
+                tim.innerHTML = "its Sunrise, my fellow muslims brother and sister";
                 break;
             case 14:
-                tim.innerHTML = "its Dhuhr  fellow muslims brother and sister";
+                tim.innerHTML = "its Dhuhr, my fellow muslims brother and sister";
                 break;
             case 16:
-                tim.innerHTML = "its Asr  fellow muslims brother and sister";
+                tim.innerHTML = "its Asr, my fellow muslims brother and sister";
                 break;
             case 19:
-                tim.innerHTML = "its Maghrib  fellow muslims brother and sister";
+                tim.innerHTML = "its Maghrib, my fellow muslims brother and sister";
                 break;
             case 20:
-                tim.innerHTML = "its Isha  fellow muslims brother and sister";
+                tim.innerHTML = "its Isha, my fellow muslims brother and sister";
                 break;
             default:
                 tim.innerHTML = "its not time for prayer";
@@ -587,10 +587,10 @@
             const hr = Math.floor((dif % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
             const ms = Math.floor((dif % (1000 * 60 * 60)) / (1000 * 60));
             const su = Math.floor((dif % (1000 * 60)) / 1000);
-            document.getElementById("spa").innerHTML = olaide(dy) + "" + "D :";
-            document.getElementById("spe").innerHTML = olaide(hr) + "" + "H :";
-            document.getElementById("spi").innerHTML = olaide(ms) + "" + "M :";
-            document.getElementById("spo").innerHTML = olaide(su) + "" + "S";
+            document.getElementById("spa").innerHTML = richard(dy) + "" + "D :";
+            document.getElementById("spe").innerHTML = richard(hr) + "" + "H :";
+            document.getElementById("spi").innerHTML = richard(ms) + "" + "M :";
+            document.getElementById("spo").innerHTML = richard(su) + "" + "S";
             if (dif <= 0) {
                 clearInterval(all);
                 document.getElementById("year").innerHTML = "HAPPY NEW YEAR";
@@ -618,7 +618,7 @@
                     "Today is Thursday, let`s get to work";
                 break;
             case 5:
-                document.getElementById("dad").innerHTML = "Thanks God it`s friday";
+                document.getElementById("dad").innerHTML = "Thanks God it`s friday, lets go and party";
                 break;
             default:
                 document.getElementById("dad").innerHTML = "Happy Weekend!!!";
@@ -631,9 +631,9 @@
         var bb = document.getElementById("sec");
         function setTime() {
             aa++;
-            dd.innerHTML = olaide(parseInt(aa / 3600)) + "" + " HRS";
-            cc.innerHTML = olaide(parseInt((aa % 3600) / 60)) + "" + " MINS";
-            bb.innerHTML = olaide(aa % 60) + "" + " SECS";
+            dd.innerHTML = richard(parseInt(aa / 3600)) + "" + " HRS";
+            cc.innerHTML = richard(parseInt((aa % 3600) / 60)) + "" + " MINS";
+            bb.innerHTML = richard(aa % 60) + "" + " SECS";
         }
         function Start() {
             document.getElementById("hour").style.color = "white";
@@ -659,8 +659,8 @@
         var bx = document.getElementById("sc");
         function lab() {
             ax++;
-            bx.innerHTML = olaide(ax % 60) + "" + " SECS";
-            cx.innerHTML = olaide(parseInt(ax / 60)) + "" + " MINS";
+            bx.innerHTML = richard(ax % 60) + "" + " SECS";
+            cx.innerHTML = richard(parseInt(ax / 60)) + "" + " MINS";
             if (cx === yum) {
                 clearInterval(lab);
             }
