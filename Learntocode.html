@@ -70,14 +70,14 @@
               <h3>
                 Join the millions learning to code with Codecademy for free
               </h3>
-              <form name="form1" onsubmit="myfunction()">
+              <form name="form1" onsubmit="return validation()">
                 <label for="Email">Email</label><br>
-                <input type="text" onkeyup="theNameValidate()" name="email" class="ric" id="ric"><br>
+                <input type="text"  name="email" class="ric" id="ric"><br>
                 <span id="inam"></span><br>
                 <label for="Password">Password</label><br>
-                <input type="password" name="password" onkeyup="thePasValidate()" class="ric" id="rec"><br><br>
+                <input type="password" name="password"  class="ric" id="rec"><br><br>
                 <span id="ipas"></span><br>
-                <button id="rac" onclick="myfunction()">Sign up</button>
+                <button id="rac" >Sign up</button>
               </form>
               <p>By signing up codeacademy, you agree to codeacademy's <br> <a href="#">Terms of services</a> & <a href="#">Privacy policy.</a></p>
               <br>
@@ -452,47 +452,46 @@
         <div class="lola">
           This is a student project
         </div>
-        <script>
-          function theNameValidate(){
-            let theTxt= document.getElementById("ric").value;
-            let onlyName = /^[A-Za-z]+$/;
-            let onlyNameLenght = /^[A-Za-z]+.{6,}$/;
+        <script> 
 
-            if (theTxt.match(onlyNameLenght)){
-                document.getElementById("inam").innerHTML="<span style='color: green; font-size: 10px;'>Correct Email</span>";
-                document.getElementById("ric").style.border="2px solid green";
-                return true;
+          function validation(){
+            var a= document.form1.email;
+            var b=document.form1.password;
+            if(email(a)){
+              if(password(b)){
+
+              }
             }
-            
-            else if (theTxt.match(onlyName)){
-                document.getElementById("inam").innerHTML="<span style='color: purple; font-size: 10px;'>Not strong enough</span>";
-                document.getElementById("ric").style.border="2px solid purple";
-                return true;
-            }
-            
-            else {
-                document.getElementById("inam").innerHTML="<span style='color: red; font-size: 10px;'> this region is required your full email!</span>";
-                document.getElementById("ric").style.border="2px solid red";
-                return false;
-             }
-        }
+            return false
+          }
 
-        function thePasValidate(){
-            let thePas = document.getElementById("rec").value;
-            let onlyPassword = /^[a-zA-Z0-9!@#$%^&*]{8,}$/;
+          function email(a){
+                            var emailformat= /^\w+([\.-]?\w+)@\w+([\.-]?\w+)(\.\w{2,3})+$/;
+                            if(a.value.match(emailformat)){
 
-            if (thePas.match(onlyPassword)){
-                document.getElementById("ipas").innerHTML="<span style='display: none;'></span>";
-                document.getElementById("rec").style.border="2px solid green";
-                return true;
-            }
+                                return true;
+                            }
+                            else{
+                                alert("Enter valid email");
+                                a.focus();
+                                return false;
+                            }
+                        }
 
-            else {
-                document.getElementById("ipas").innerHTML="<span style='color: red; font-size: 10px;'> password must be at least 8 characters</span>";
-                document.getElementById("rec").style.border="2px solid red";
-                return false;
-             }
-        }
+                        function password(b){
+                          var passid= /^(?=.*\d)(?=.*[!@#$%^&*])(?=.*[a-z])(?=.*[A-Z]).{8,}$/; 
+                          if(b.value.match(passid)){
+                            alert("form successfully submitted");
+                                window.location.reload();
+                                return true;
+                            }
+                            else{
+                                alert("Enter valid password");
+                                b.focus();
+                                return false;
+                            }
+                          }
+                        
         </script>
         
 </body>

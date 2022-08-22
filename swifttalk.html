@@ -260,15 +260,15 @@
             </div>
             <div class="col-sm-12 col-md-4" id="shape">
               <h3>Join Our Newsletter</h3>
-              <form name="form1" class="row g-3">
-                <label for="validationDefault01" class="form-label">Email</label><br>
-                <input type="Email" class="form-control" id="validationDefault01"  required id="molu"><br><br>
+              <form name="validation"  onsubmit="return formvalidation()">
+                <label  >Email</label><br>
+                <input type="Email" name="email"><br><br>
                 
-                <label for="validationDefault02" class="form-label">First Name</label><br>
-                <input type="text" class="form-control" id="validationDefault02"  required id="molu"><br><br>
+                <label>First Name</label><br>
+                <input type="text" name="fname"><br><br>
                 
-                <label for="validationDefault03" class="form-label">Last Name</label><br>
-                <input type="text" class="form-control" id="validationDefault03"  required id="molu"><br><br>
+                <label >Last Name</label><br>
+                <input type="text" name="lname"><br><br>
                 
                 <button class="molu">Join Now</button>
               </form>
@@ -276,6 +276,77 @@
           </div>
         </div>
       </div>
+      <div class="christ">
+        <h1>THIS IS A STUDENT PROJECT </h1>
+    </div>
+
+              <script>
+
+function formvalidation(){
+        
+        var a= document.validation.email;
+        var b= document.validation.fname;
+        var c= document.validation.lname;
+        if(email(a)){
+            if(fname(b,5,12)){
+              if(lname(c,6,14)){
+
+              }
+
+            }
+        }
+        return false;
+     }                          
+
+          
+                  
+              function email(a){
+                            var emailformat= /^\w+([\.-]?\w+)@\w+([\.-]?\w+)(\.\w{2,3})+$/;
+                            if(a.value.match(emailformat)){
+                                return true;
+                            }
+                            else{
+                                alert("Enter valid email");
+                                a.focus();
+                                return false;
+                            }
+                        }
+
+
+
+                        function fname(b,mx,my){
+                            var idme= b.value.length;
+                            if(idme==0|| idme>my|| idme<mx){
+                                alert("enter username that is greater than 5 and less than 12");
+                                b.focus();
+                                return false;
+                            }
+                            return true;
+                        }  
+
+
+                        function lname(b,mx,my){
+                            var lang= b.value.length;
+                            if(lang==0|| lang>my|| lang<mx){
+                                alert("enter lastname that is greater than 6 and less than 14");
+                                b.focus();
+                                return false;
+                             
+                            }
+                            return true;
+                            alert("form successfully submitted");
+                                window.location.reload();
+                           
+                        }  
+
+                       
+
+
+
+
+                        
+
+              </script>
     
 </body>
 </html>

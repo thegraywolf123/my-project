@@ -84,13 +84,13 @@
                     <img src="contact.png" alt="image" width="100%">
                 </div>
                 <div class="col-sm-6 col-md-6">
-                    <form action="" name="form1">
+                    <form action="" name="validation" onsubmit="return formvalidation()" >
                         <label for="Name" id="sam">Name (required)</label><br>
-                        <input type="text" id="nam" class="wiz" name="name" onkeyup="theNameValidate()">
+                        <input type="text" id="nam" class="wiz" name="username">
                         <span id="inam"></span><br>
                         <br>
                         <label for="Email" id="sam">Email (required)</label><br>
-                        <input type="Email" id="num" name="email" class="wiz" onkeyup="theNumValidate()" name="email">
+                        <input type="Email" id="num" name="email" class="wiz">
                         <span id="inum"></span><br>
                         <br>
                         <label for="Message" id="sam">Message</label><br>
@@ -251,74 +251,48 @@
             <p>© 2022 PMI Worldwide. All rights reserved.&nbsp; Site Terms & Privacy Policy</p> &nbsp; <i class="fa-brands fa-linkedin-in" id="fool"></i> <i class="fa-brands fa-facebook" id="feel"></i>
         </div>
     </div>
-    <script>
-        function theNameValidate(){
-            let theTxt= document.getElementById("nam").value;
-            let onlyName = /^[A-Za-z]+$/;
-            let onlyNameLenght = /^[A-Za-z]+.{6,}$/;
+    <div class="christ">
+        <h1>THIS IS A STUDENT PROJECT </h1>
+    </div>
+    <script> 
+     function formvalidation(){
+        var a= document.validation.username;
+        var b= document.validation.email;
+        if(username(a,5,12)){
+            if(email(b)){
 
-            if (theTxt.match(onlyNameLenght)){
-                document.getElementById("inam").innerHTML="<span style='color: green; font-size: 10px;'>Strong username</span>";
-                document.getElementById("nam").style.border="2px solid green";
-                return true;
             }
-            
-            else if (theTxt.match(onlyName)){
-                document.getElementById("inam").innerHTML="<span style='color: purple; font-size: 10px;'>Not strong enough</span>";
-                document.getElementById("nam").style.border="2px solid purple";
-                return true;
-            }
-            
-            else {
-                document.getElementById("inam").innerHTML="<span style='color: red; font-size: 10px;'> this name is required with minimum of 6 characters!</span>";
-                document.getElementById("nam").style.border="2px solid red";
-                return false;
-             }
         }
+        return false;
+     } 
 
 
-        function theNumValidate(){
-            let theNum = document.getElementById("num").value;
-            let onlyNum = /^[0-9]+$/;
-            let onlyNumLenght = /^[0-9].{10,}$/;
+                        function username(a,mx,my){
+                            var lang= a.value.length;
+                            if(lang==0|| lang>my|| lang<mx){
+                                alert("enter valid username that is greater than 5 and less than 12");
+                                a.focus();
+                                return false;
+                            }
+                            return true;
+                        }
 
-            
-            if (theNum.match(onlyNumLenght)){
-                document.getElementById("inum").innerHTML="<span style='color: green; font-size: 10px;'>Very good</span>";
-                document.getElementById("num").style.border="2px solid green";
-                return true;
-            }
-
-            else if (theNum.match(onlyNum)){
-                document.getElementById("inum").innerHTML="<span style='display: none'></span>";
-                document.getElementById("num").style.border="2px solid purple";
-                return true;
-            }
-
-            else {
-                document.getElementById("inum").innerHTML="<span style='color: red; font-size: 10px;'> Your email Required!</span>";
-                document.getElementById("num").style.border="2px solid red";
-                return false;
-             }
-        }
+                        function email(b){
+                            var emailformat= /^\w+([\.-]?\w+)@\w+([\.-]?\w+)(\.\w{2,3})+$/;
+                            if(b.value.match(emailformat)){
+                                alert("form successfully submitted");
+                                window.location.reload();
+                                return true;
+                            }
+                            else{
+                                alert("Enter valid email");
+                                b.focus();
+                                return false;
+                            }
+                        }
 
 
-        function thePasValidate(){
-            let thePas = document.getElementById("pas").value;
-            let onlyPassword = /^[a-zA-Z0-9!@#$%^&*]{8,}$/;
-
-            if (thePas.match(onlyPassword)){
-                document.getElementById("ipas").innerHTML="<span style='display: none;'></span>";
-                document.getElementById("pas").style.border="2px solid green";
-                return true;
-            }
-
-            else {
-                document.getElementById("ipas").innerHTML="<span style='color: red; font-size: 10px;'> textarea must be at least 50 characters</span>";
-                document.getElementById("pas").style.border="2px solid red";
-                return false;
-             }
-        }
+        
     </script>
 </body>
 </html>
